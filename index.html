@@ -7,18 +7,21 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Stapel:wght@400;700;500&display=swap">
   <style>
     @font-face {
-      font-family: 'Stapel';
-      src: url('/fonts/Stapel-Medium.woff2') format('woff2');
-      font-weight: 500;
-      font-style: normal;
-    }
+    font-family: 'Stapel';
+    src: url('/fonts/Stapel\ Normal\ Regular.otf') format('opentype'),
+         url('/fonts/Stapel-Medium.ttf') format('truetype');
+    font-weight: 400; /* Нормальный вес */
+    font-style: normal;
+    font-display: swap;
+}
 
-    @font-face {
-      font-family: 'Stapel';
-      src: url('/fonts/Stapel-Light.woff2') format('woff2');
-      font-weight: 400;
-      font-style: normal;
-    }
+@font-face {
+    font-family: 'Stapel';
+    src: url('/fonts/Stapel-Medium.ttf') format('truetype');
+    font-weight: 500; /* Средний вес */
+    font-style: normal;
+    font-display: swap;
+}
 
     body {
       font-family: 'Stapel', Arial, sans-serif;
@@ -28,30 +31,30 @@
 <body style="margin: 0; padding: 0; font-family: 'Stapel', Arial, sans-serif;">
 
   <!-- Основной контейнер -->
-  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; margin: 0 auto;background: #f3f3f3;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; margin: 0 auto;">
     
     <tr">
       <td style="background: url('/img/bghero.svg');border-radius: 26px 26px 0 0; background-repeat: no-repeat; background-size: cover; background-position: center;padding-bottom: 45px;">
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0px" border="0">
           <tr>
             <!-- Логотип (1/3 ширины) -->
-            <td width="25.33%" valign="top" style="padding: 31px 52px 0 23px;">
-              <img src="/img/logo.svg" alt="Логотип" style="width: 100%; max-width: 200px; height: auto; display: block;">
+            <td width="25.33%" valign="top" style="padding: 31px 12px 0 23px;">
+              <img src="/img/logo.svg" alt="Логотип" style="width: 100%; height: auto; display: block;">
             </td>
             <!-- Блок заголовков (2/3 ширины) -->
             <td width="74.66%" style="padding: 31px 23px 20px 0;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="font-size: 16px; line-height: 225%; font-weight: bold; color: #fff; padding-bottom: 8px;font-weight: 400;">предлагаем вам</td>
+                  <td style="font-size: 16px; line-height: 225%; font-weight: bold; color: #ffff; padding-bottom: 8px;font-weight: 400;">предлагаем вам</td>
                 </tr>
                 <tr>
-                  <td style="font-size: 40px; color: #fff;font-weight: 500;">
+                  <td style="font-size: 40px; color: #ffff;font-weight: 500;line-height: 95%;">
                     бесплатный аудит вашего бренда
                   </td>
                 </tr>
                 <tr>
                   <td align="right" style="text-align: left; padding-top: 20px;">
-                    <a href="https://yourwebsite.com" style="display: inline-block;border-radius: 12px;padding: 13px 44px;background: #f3f3f3;font-weight: 500;font-size: 16px;line-height: 75%;color: #232323;text-decoration: none;">
+                    <a href="https://dprofile.ru/case/91660/kadis-brending" style="display: inline-block;border-radius: 12px;padding: 13px 44px;background: #f3f3f3;font-weight: 500;font-size: 16px;line-height: 75%;color: #232323;text-decoration: none;">
                       записаться
                     </a>
                   </td>
@@ -64,7 +67,7 @@
     </tr>
 
     <tr style="position: relative;top: -30px;">
-      <td style="background: #f3f3f3;border-radius: 26px 26px 0 0; background-repeat: no-repeat; background-size: cover; background-position: center;">
+      <td style="background: #ffff;border-radius: 26px 26px 0 0; background-repeat: no-repeat; background-size: cover; background-position: center;">
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
             <!-- Логотип (1/3 ширины) -->
@@ -82,7 +85,7 @@
             <td width="74.66%" style="padding: 23px 23px 0px 12px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="font-size: 34px; color: #232323;font-weight: 400;">
+                  <td style="font-size: 34px; color: #232323;font-weight: 400;line-height: 94%;">
                     делимся практическим опытом победителей
                   </td>
                 </tr>
@@ -94,29 +97,47 @@
     </tr>
 
     <tr>
-      <td style="background: #f3f3f3;position: relative;top: -30px;padding: 0 23px;">
+      <td style="background: #ffff;position: relative;top: -30px;padding: 0 23px;">
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0px" border="0">
           <tr>
-            <!-- Логотип (1/3 ширины) -->
-            <td width="25.33%" valign="top" style="background: url('/img/bg2.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;border-radius: 12px;"></td>
-            <!-- Блок заголовков (2/3 ширины) -->
-            <td width="74.66%" style="padding: 20px 16px;background: linear-gradient(230deg, rgba(198, 69, 91, 0.5) 0%, rgba(198, 69, 91, 0.5) 100%);box-shadow: -3px 3px 10px 0 rgba(198, 69, 91, 0.15), 4px -4px 10px 0 rgba(255, 255, 255, 0.5);backdrop-filter: blur(37.599998474121094px);border-radius: 12px;">
+            <td>
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="font-weight: 500;font-size: 14px;line-height: 100%;letter-spacing: -0.01em;color: #232323;">
-                    Ребрендинг: что это, цели <br> и задачи, как его провести
+                  <td width="25.33%">
+                    <img style="width: 100%;border-radius: 12px;" src="/img/bg2.jpg" alt="">
                   </td>
-                  <td valign="top" style="padding-right: 5px;padding-top: 3px;">
-                    <img src="/img/Vector.svg" alt="Логотип" style="max-width: 50px; height: auto; display: block;">
-                  </td>
-                  <td valign="top">
-                    <a href="">
-                      <img src="/img/external-link.svg" alt="">
-                    </a>
+                </tr>
+              </table>
+            </td>
+            <td width="74.66%" style="padding: 20px 16px;background: linear-gradient(230deg, rgba(215, 141, 153, 0.5) 0%, rgba(204, 93, 111, 0.5) 100%);box-shadow: -3px 3px 10px 0 rgba(198, 69, 91, 0.15), 4px -4px 10px 0 rgba(255, 255, 255, 0.5);backdrop-filter: blur(37.599998474121094px);border-radius: 12px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="font-weight: 500;font-size: 14px;line-height: 100%;letter-spacing: -0.01em;color: #232323;">
+                          Ребрендинг: что это, цели <br> и задачи, как его провести
+                        </td>
+                        <td valign="top" style="padding-right: 5px;padding-top: 3px;">
+                          <img src="/img/Vector.svg" alt="Логотип" style="max-width: 50px; height: auto; display: block;">
+                        </td>
+                        <td valign="top">
+                          <a href="https://secrets.tinkoff.ru/blogi-kompanij/chto-takoe-rebrending-2/">
+                            <img src="/img/external-link.svg" alt="">
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
                   </td>
                 </tr>
                 <tr>
-                  <td width="100%" style="font-weight: 400;font-size: 12px;line-height: 128%;color: #232323; padding-top: 12px;">
+                  <td style="
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 128%;
+                  color: #232323; 
+                  padding-top: 12px;
+                  ">
                     Актуальные возможности ребрендинга позволяют 
                     компаниям повысить прибыль и маржинальность 
                     бизнеса через более эффективные коммуникации 
@@ -131,29 +152,48 @@
     </tr>
 
     <tr>
-      <td style="background: #f3f3f3;position: relative;top: -30px;padding: 0 23px;">
+      <td style="background: #ffff;position: relative;top: -30px;padding: 0 23px;">
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
             <!-- Логотип (1/3 ширины) -->
-            <td width="25.33%" valign="top"></td>
+            <td width="25.33%" valign="top">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="font-weight: 500;font-size: 12px;line-height: 100%;color: #232323;">
+                    Алексей Кузнецов
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-weight: 400;font-size: 11px;line-height: 110%;text-transform: lowercase;color: #a0a0a0;">
+                    основатель 
+                  </td>
+                </tr>
+              </table>
+            </td>
             <!-- Блок заголовков (2/3 ширины) -->
             <td width="74.66%" style="padding: 20px 16px;background: linear-gradient(230deg, rgba(198, 69, 91, 0.5) 0%, #c6455b 100%);box-shadow: -3px 3px 10px 0 rgba(198, 69, 91, 0.15), 4px -4px 10px 0 rgba(255, 255, 255, 0.5);backdrop-filter: blur(37.599998474121094px);border-radius: 12px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="font-weight: 500;font-size: 14px;line-height: 100%;letter-spacing: -0.01em;color: #fff;">
-                    Как «вытащить» из собственника миссию и ценности бренда
-                  </td>
-                  <td valign="top" style="padding-right: 5px;padding-top: 3px;">
-                    <img src="/img/social-facebook 1.svg" alt="Логотип" style="max-width: 50px; height: auto; display: block;">
-                  </td>
-                  <td valign="top">
-                    <a href="">
-                      <img src="/img/external-link2.svg" alt="">
-                    </a>
-                  </td>
+                 <td>
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td style="font-weight: 500;font-size: 14px;line-height: 100%;letter-spacing: -0.01em;color: #ffff;">
+                        Как «вытащить» из собственника миссию и ценности бренда
+                      </td>
+                      <td valign="top" style="padding-right: 5px;padding-top: 3px;">
+                        <img src="/img/social-facebook 1.svg" alt="Логотип" style="max-width: 50px; height: auto; display: block;">
+                      </td>
+                      <td valign="top">
+                        <a href="https://pro.rbc.ru/demo/66d55a689a7947641e2e72a7">
+                          <img src="/img/external-link2.svg" alt="">
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                 </td>
                 </tr>
                 <tr>
-                  <td width="100%" style="font-weight: 400;font-size: 12px;line-height: 128%;color: #fff; padding-top: 12px;">
+                  <td width="100%" style="font-weight: 400;font-size: 12px;line-height: 128%;color: #ffff; padding-top: 12px;">
                     Актуальные возможности ребрендинга позволяют 
                     компаниям повысить прибыль и маржинальность 
                     бизнеса через более эффективные коммуникации 
@@ -168,12 +208,12 @@
     </tr>
 
     <tr>
-      <td style="background: #f3f3f3; position: relative; top: -30px; padding: 0 23px 0 23px;">
+      <td style="background: #ffff; position: relative; top: -30px; padding: 0 23px 0 23px;">
         <!-- Внутренняя таблица с двумя колонками -->
         <table width="100%" cellpadding="0" cellspacing="" border="0" style="border-spacing: 12px 6px;">
           <tr>
             <!-- Левый "столбец" -->
-            <td width="25.33%" valign="top" style="padding: 0; margin: 0;position: relative; top: -90px;">
+            <td width="25.33%" valign="top" style="padding: 0; margin: 0;position: relative; top: -65px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td>
@@ -189,10 +229,12 @@
             </td>
             <!-- Правый "столбец" -->
             <td width="74.66%" valign="top">
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background: #fff; border: 1px solid #c6455b; border-radius: 8px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background: #ffff; border: 1px solid #c6455b; border-radius: 8px;">
                 <tr>
                   <td width="40%" valign="top" style="padding: 4px 5px 4px 4px;">
-                    <img src="/img/img12.jpg" alt="Логотип" style="max-width: 145px; height: auto; display: block; border-radius: 8px;">
+                    <a style="text-decoration: none;" href="https://www.youtube.com/watch?v=UpymUNc4SiE">
+                      <img src="/img/img12.jpg" alt="Логотип" style="max-width: 145px; height: auto; display: block; border-radius: 8px;">
+                    </a>
                   </td>
                   <td valign="top" style="font-weight: 500; font-size: 16px; line-height: 100%; color: #c6455b; padding: 8px 5px 8px 8px;">
                     <!-- Основной заголовок -->
@@ -225,14 +267,14 @@
                   <td width="12px">
                     <img src="/img/o.svg" alt="">
                   </td>
-                  <td style="font-weight: 400;font-size: 12px;line-height: 100%;color: #fff;padding-left: 4px;">о нас</td>
+                  <td style="font-weight: 400;font-size: 12px;line-height: 100%;color: #ffff;padding-left: 4px;">о нас</td>
                 </tr>
               </table>            </td>
             <!-- Блок заголовков (2/3 ширины) -->
             <td width="74.66%" style="padding: 23px 23px 0px 12px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="font-size: 34px; color: #fff;font-weight: 400;">
+                  <td style="font-size: 34px; color: #ffff;font-weight: 400;line-height: 94%;">
                     мы собрали <br> сильную команду 
                   </td>
                 </tr>
@@ -247,26 +289,13 @@
       <td style="background: #232323; background-repeat: no-repeat; background-size: cover; background-position: center;">
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
-            <!-- Логотип (1/3 ширины) -->
             <td width="25.33%" valign="top" style="padding: 31px 52px 0 23px;">
-              <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                  <td style="font-weight: 400;font-size: 39px;line-height: 90%;letter-spacing: -0.05em;color: #a0a0a0;">
-                    15
-                  </td>
-                </tr>
-                <tr>
-                  <td style="font-weight: 400;font-size: 13px;line-height: 130%;letter-spacing: -0.05em;color: #a0a0a0;">
-                    лет работы
-                  </td>
-                </tr>
-              </table>            
+              <img src="/img/15.svg" alt="">          
             </td>
-            <!-- Блок заголовков (2/3 ширины) -->
             <td width="74.66%" style="padding: 23px 23px 0px 12px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="font-weight: 400;font-size: 15px;line-height: 140%;text-align: justify;color: #fff;">
+                  <td style="font-weight: 400;font-size: 15px;line-height: 140%;text-align: justify;color: #ffff;">
                     За 15 лет продуктивной работы мы выросли до 
                     бренд-консалтингового агентства, вошли в ТОП-4 
                     России по брендингу и бренд-аналитике. <br> <br>
@@ -289,7 +318,7 @@
         <table width="100%" style="border-spacing: 12px 6px;" cellpadding="0" cellspacing="0" border="0">
           <tr>
             <!-- Логотип (1/3 ширины) -->
-            <td width="25.33%" valign="bottom" style="padding-left: 23px;">
+            <td width="25.33%" valign="bottom" style="padding-left: 23px;position: relative; top: -60px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td>
@@ -310,7 +339,7 @@
             </td>
     
             <!-- Блок заголовков (2/3 ширины) -->
-            <td width="74.66%" style="padding: 23px 23px 0px 12px;">
+            <td width="74.66%" style="padding: 23px 23px 0px 12px;" valign="top">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td width="90%">
@@ -332,7 +361,7 @@
                           <img src="/img/plus.svg" alt="">
                         </td>
                         <!-- Заголовок справа -->
-                        <td style="font-weight: 500; font-size: 8px; line-height: 120%; color: #fff;">
+                        <td style="font-weight: 500; font-size: 8px; line-height: 120%; color: #ffff;">
                           операционная команда агентства
                         </td>
                       </tr>
@@ -352,8 +381,8 @@
       </td>
     </tr>
 
-    <tr style="position: relative;top: -90px; background: #000;">
-      <td style="background: #f3f3f3;border-radius: 26px 26px 0 0;">
+    <tr style="position: relative;top: -150px; background: #000;">
+      <td style="background: #ffff;border-radius: 26px 26px 0 0;">
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
             <!-- Логотип (1/3 ширины) -->
@@ -364,16 +393,16 @@
                     <img src="/img/o.svg" alt="">
                   </td>                  
                   <td style="font-weight: 400;font-size: 12px;line-height: 100%;color: #232323;padding-left: 4px;">
-                    о нас
+                    методология
                   </td>
                 </tr>
               </table>            
             </td>
             <!-- Блок заголовков (2/3 ширины) -->
-            <td width="74.66%" style="padding: 23px 23px 0px 12px;">
+            <td width="74.66%" style="padding: 23px 23px 0px 0;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="font-size: 34px; color: #232323;font-weight: 400;">
+                  <td style="font-size: 34px; color: #232323;font-weight: 400;line-height: 94%;">
                     помещаем бренды <br> в сознание людей
                   </td>
                 </tr>
@@ -384,8 +413,8 @@
       </td>
     </tr>
 
-    <tr style="position: relative;top: -90px;">
-      <td style="background: #f3f3f3;">
+    <tr style="position: relative;top: -150px;">
+      <td style="background: #ffff;">
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
             <!-- Логотип (1/3 ширины) -->
@@ -399,17 +428,17 @@
             <td width="74.66%" style="padding: 0 23px 32px 12px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="font-weight: 400;font-size: 15px;line-height: 140%;text-align: justify;color: #000;">
+                  <td style="font-weight: 400;font-size: 15px;line-height: 140%;color: #000;">
                     Обновили бренд для поставщика и разработчика правового 
                     программного обеспечения КонсультантПлюс.
-                    Цель ребрендинга — сформировать и донести 
-                    ДНК бренда до аудитории, тем самым повысив лояльность 
+                    Цель ребрендинга <b style="font-weight: 500;">— сформировать и донести 
+                      ДНК бренда</b> до аудитории, тем самым повысив лояльность 
                     бренда среди клиентов и ценных кадров. <br> <br>
                     В ходе проекта была разработана платформа бренда 
                     (включающая в себя ДНК и образ бренда) по авторской 
                     методике основателя агентства Алексея Кузнецова.
-                    На основе платформы был разработан фирменный 
-                    стиль, который отразил ДНК и образ бренда 
+                    На основе платформы был <b>разработан фирменный 
+                      стиль, который отразил ДНК и образ бренда</b> 
                     компании, а также сохранил преемственность 
                     с ранее существовавшей айдентикой, что поддержало 
                     лояльность старых клиентов.
@@ -422,7 +451,7 @@
       </td>
     </tr>
 
-    <tr style="position: relative;top: -90px;background: #f3f3f3;">
+    <tr style="position: relative;top: -150px;background: #ffff;">
       <td>
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
@@ -437,7 +466,7 @@
                             <img src="/img/external-link2.svg" alt="">
                           </a>
                         </td>
-                        <td style="font-weight: 500; font-size: 12px; line-height: 108%; letter-spacing: -0.01em; color: #fff; padding-left: 8px;">
+                        <td style="font-weight: 400; font-size: 12px; line-height: 108%; letter-spacing: -0.01em; color: #ffff; padding-left: 8px;">
                           полный кейс на dprofile
                         </td>
                       </tr>
@@ -450,7 +479,7 @@
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="height: 100px;border-spacing: 12px 0;">
                 <tr>
                   <!-- Квадратный <td>, занимающий 1/3 ширины -->
-                    <td style="width: 33.33%; height: 100px; background-color: #fff; color: #fff; text-align: center;border: 1px solid rgba(127, 94, 165, 0.5);border-radius: 12px;padding: 10px 5px;">
+                    <td style="width: 33.33%; height: 100px; background-color: #ffff; color: #ffff; text-align: center;border: 1px solid rgba(127, 94, 165, 0.5);border-radius: 12px;padding: 10px 5px;">
                       <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
                         <tr >
                           <!-- Ячейка для картинки -->
@@ -467,7 +496,7 @@
                       </table>
                     </td>
                   <!-- Прямоугольный <td>, занимающий 2/3 ширины -->
-                  <td style="width: 66.66%; height: 100px; background: url('/img/bg21.jpg'); color: #fff; text-align: center;background-repeat: no-repeat;background-size: cover;border-radius: 12px;">
+                  <td style="width: 66.66%; height: 100px; background: url('/img/bg21.jpg'); color: #ffff; text-align: center;background-repeat: no-repeat;background-size: cover;border-radius: 12px;">
                     <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <!-- Ячейка для картинки -->
@@ -491,14 +520,14 @@
       </td>
     </tr>
 
-    <tr style="position: relative;top: -90px; background: #f3f3f3;">
+    <tr style="position: relative;top: -150px; background: #ffff;">
       <td>
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
             <td width="25.33%" valign="bottom" style="padding-left: 23px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td colspan="2" style="background: #f3f3f3; padding: 10px; border-radius: 12px;border: 1px solid #a0a0a0;">
+                  <td colspan="2" style="background: #ffff; padding: 10px; border-radius: 12px;border: 1px solid #a0a0a0;">
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" >
                       <tr">
                         <td>
@@ -506,7 +535,7 @@
                             <img src="/img/external-link3.svg" alt="">
                           </a>
                         </td>
-                        <td style="font-weight: 500; font-size: 12px; line-height: 108%; letter-spacing: -0.01em; color: #a0a0a0; padding-left: 8px;background: #f3f3f3;">
+                        <td style="font-weight: 400; font-size: 12px; line-height: 108%; letter-spacing: -0.01em; color: #a0a0a0; padding-left: 8px;background: #ffff;">
                           все кейсы на сайте kuznets.agency
                         </td>
                       </tr>
@@ -518,7 +547,7 @@
             <td width="74.66%" style="padding-left: 0px;padding-right: 11px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="height: 100px;border-spacing: 12px 0;">
                 <tr>
-                  <td style="width: 66.66%; height: 100px; background: url('/img/bg1212.jpg'); color: #fff; text-align: center;background-repeat: no-repeat;background-size: cover;border-radius: 12px;height: 200px;">
+                  <td style="width: 66.66%; height: 100px; background: url('/img/bg1212.jpg'); color: #ffff; text-align: center;background-repeat: no-repeat;background-size: cover;border-radius: 12px;height: 200px;">
                   </td>
                 </tr>
               </table>
@@ -528,19 +557,19 @@
       </td>
     </tr>
 
-    <tr style="position: relative;top: -60px;">
+    <tr style="position: relative;top: -120px;">
       <td style="background-color: #232323;background-image: url('/img/bgbg.svg');background-repeat: no-repeat;background-position: left;background-size: auto;border-radius: 26px 26px 0 0;">
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
             <!-- Логотип (1/3 ширины) -->
             <td width="25.33%" valign="top" style="padding: 31px 0px 0 23px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                  <td width="12px">
+                <tr valign="top">
+                  <td width="12px" valign="top" style="position: relative; top: -5px;">
                     <img src="/img/o.svg" alt="">
                   </td>
-                  <td style="font-weight: 400;font-size: 12px;line-height: 100%;color: #fff;padding-left: 4px;">
-                    специальное 
+                  <td style="font-weight: 400;font-size: 12px;line-height: 100%;color: #ffff;padding-left: 4px;">
+                    специальное <br>предложение
                   </td>
                 </tr>
               </table>            
@@ -549,12 +578,12 @@
             <td width="74.66%" style="padding: 23px 23px 94px 12px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="font-size: 30px; color: #fff;font-weight: 400;padding-bottom: 40px;">
+                  <td style="font-size: 30px; color: #ffff;font-weight: 400;padding-bottom: 40px;line-height: 94%;">
                     закажите <span style="color: #C6455B;">бесплатный</span> <br> аудит бренда сейчас
                   </td>
                 </tr>
                 <tr>
-                  <td style="font-weight: 400;font-size: 15px;line-height: 140%;letter-spacing: -0.01em;color: #fff;padding-bottom: 32px;">
+                  <td style="font-weight: 400;font-size: 15px;line-height: 140%;letter-spacing: -0.01em;color: #ffff;padding-bottom: 32px;">
                     Успейте заказать бесплатный аудит вашего бренда по 
                     авторской методологии от основателя агентства и 
                     эксперта с многолетним опытом Алексея Кузнецова. <br><br>
@@ -567,53 +596,12 @@
                 </tr>
                 <tr>
                   <td style="padding-bottom: 20px;">
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td style="vertical-align: middle; height: 30px;">
-                          <img src="/img/q1.svg" alt="">
-                        </td>
-                        <td style="vertical-align: middle; height: 30px;">
-                          <img src="/img/q2.svg" alt="">
-                        </td>
-                        <td style="vertical-align: middle; height: 30px;">
-                          <img src="/img/q3.svg" alt="">
-                        </td>
-                        <td style="vertical-align: middle; height: 30px;">
-                          <img src="/img/q4.svg" alt="">
-                        </td>
-                        <td  style="vertical-align: middle; height: 30px;">
-                          <img src="/img/q5.svg" alt="">
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding-bottom: 40px;">
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td style="vertical-align: middle; height: 30px;">
-                          <img src="/img/w1.svg" alt="">
-                        </td>
-                        <td style="vertical-align: middle; height: 30px;">
-                          <img src="/img/w2.svg" alt="">
-                        </td>
-                        <td style="vertical-align: middle; height: 30px;">
-                          <img src="/img/w3.svg" alt="">
-                        </td>
-                        <td style="vertical-align: middle; height: 30px;">
-                          <img src="/img/w4.svg" alt="">
-                        </td>
-                        <td  style="vertical-align: middle; height: 30px;">
-                          <img src="/img/w5.svg" alt="">
-                        </td>
-                      </tr>
-                    </table>
+                    <img src="/img/logo2.svg" alt="">
                   </td>
                 </tr>
                 <tr>
                   <td align="center" style="border-radius: 12px;background: #c6455b;padding: 16px;">
-                    <a style="color: #f3f3f3;font-weight: 500;font-size: 18px;line-height: 67%;text-decoration: none;" href="">записаться на бесплатный аудит</a>
+                    <a style="color: #f3f3f3;font-weight: 500;font-size: 18px;line-height: 67%;text-decoration: none;" href="https://dprofile.ru/case/91660/kadis-brending">записаться на бесплатный аудит</a>
                   </td>
                 </tr>
               </table>
@@ -624,8 +612,8 @@
     </tr>
 
 
-    <tr style="position: relative;top: -90px;">
-      <td style="background: #f3f3f3;border-radius: 26px 26px 0 0; background-repeat: no-repeat; background-size: cover; background-position: center;">
+    <tr style="position: relative;top: -150px;">
+      <td style="background: #ffff;border-radius: 26px 26px 0 0; background-repeat: no-repeat; background-size: cover; background-position: center;">
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
             <!-- Логотип (1/3 ширины) -->
@@ -647,14 +635,14 @@
                 </tr>
                 <tr>
                   <!-- Текст также должен быть в <td> -->
-                  <td colspan="2" style="font-weight: 700; font-size: 14px; color: #232323; padding-top: 8px;">
+                  <td colspan="2" style="font-weight: 700; font-size: 14px; color: #232323;">
                     Кирилл Волков
                   </td>
                 </tr>
                 <tr>
                   <!-- Описание -->
-                  <td colspan="2" style="font-size: 12px; color: #666; padding-top: 4px;">
-                    руководитель отдела продаж
+                  <td colspan="2" style="font-size: 12px;color: #a0a0a0;">
+                    руководитель <br>отдела продаж
                   </td>
                 </tr>
               </table>          
@@ -668,22 +656,22 @@
       </td>
     </tr>
     
-    <tr style="position: relative;top: -120px;">
-      <td style="background: #232323;border-radius: 26px;padding: 32px 21px;">
+    <tr style="position: relative;top: -180px;">
+      <td style="background: #232323;border-radius: 26px;padding: 24px 21px 32px 21px;">
         <table style="border-spacing: 12px 6px" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
-            <td style="font-weight: 400; font-size: 12px; line-height: 150%; color: #fff;">
+            <td style="font-weight: 400; font-size: 12px; line-height: 150%; color: #ffff;">
               По всем вопросам пишите на 
-              <a href="mailto:hello@kuznets.agency" style="color: #fff; text-decoration: underline;">hello@kuznets.agency</a> <br>
+              <a href="mailto:hello@kuznets.agency" style="color: #ffff; text-decoration: underline;">hello@kuznets.agency</a> <br>
               или звоните по телефону 
-              <a href="tel:+74951478860" style="color: #fff; text-decoration: underline;">+7 (495) 147 88 60</a>
+              <a href="tel:+74951478860" style="color: #ffff; text-decoration: underline;">+7 (495) 147 88 60</a>
             </td>
             <td>
               <img src="/img/logo.svg" alt="">
             </td>
           </tr>
           <tr>
-            <td style="vertical-align: middle;">
+            <td style="vertical-align: middle; padding: 20px 0 20px 0;">
               <a style="padding-right: 24px;text-decoration: none;" href="https://t.me/kuznetsbrandconsulting">
                 <img src="/img/file-icons_telegram.svg" alt="" style="display: inline-block; vertical-align: middle;">
               </a>
@@ -705,11 +693,11 @@
             </td>
           </tr>
           <tr>
-            <td style="font-weight: 400;font-size: 12px;line-height: 150%;color: #fff;">
+            <td style="font-weight: 400;font-size: 12px;line-height: 150%;color: #ffff;">
               Вы получили это письмо, потому что подписались 
               на нашу рассылку. Если вы больше не хотите 
               получать наши письма, нажмите 
-              <a style="font-weight: 400;font-size: 12px;line-height: 150%;color: #fff;" href="">сюда</a>
+              <a style="font-weight: 400;font-size: 12px;line-height: 150%;color: #ffff;" href="">сюда</a>
             </td>
           </tr>
         </table>
